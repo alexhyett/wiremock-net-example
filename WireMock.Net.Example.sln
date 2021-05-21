@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{14CA195A-D0F4-4CAC-A835-40ADB445BF22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WireMock.Net.Api", "src\WireMock.Net.Api\WireMock.Net.Api.csproj", "{699E6556-7E60-4700-800B-801459A7F39C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A5937CA8-8628-4459-BA3A-4FA546656CBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WireMock.Net.Test", "test\WireMock.Net.Test\WireMock.Net.Test.csproj", "{BADCBF90-C083-4579-87AC-95CD58D02FE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{699E6556-7E60-4700-800B-801459A7F39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{699E6556-7E60-4700-800B-801459A7F39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{699E6556-7E60-4700-800B-801459A7F39C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{699E6556-7E60-4700-800B-801459A7F39C}.Debug|x64.Build.0 = Debug|Any CPU
+		{699E6556-7E60-4700-800B-801459A7F39C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{699E6556-7E60-4700-800B-801459A7F39C}.Debug|x86.Build.0 = Debug|Any CPU
+		{699E6556-7E60-4700-800B-801459A7F39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{699E6556-7E60-4700-800B-801459A7F39C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{699E6556-7E60-4700-800B-801459A7F39C}.Release|x64.ActiveCfg = Release|Any CPU
+		{699E6556-7E60-4700-800B-801459A7F39C}.Release|x64.Build.0 = Release|Any CPU
+		{699E6556-7E60-4700-800B-801459A7F39C}.Release|x86.ActiveCfg = Release|Any CPU
+		{699E6556-7E60-4700-800B-801459A7F39C}.Release|x86.Build.0 = Release|Any CPU
+		{BADCBF90-C083-4579-87AC-95CD58D02FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BADCBF90-C083-4579-87AC-95CD58D02FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BADCBF90-C083-4579-87AC-95CD58D02FE7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BADCBF90-C083-4579-87AC-95CD58D02FE7}.Debug|x64.Build.0 = Debug|Any CPU
+		{BADCBF90-C083-4579-87AC-95CD58D02FE7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BADCBF90-C083-4579-87AC-95CD58D02FE7}.Debug|x86.Build.0 = Debug|Any CPU
+		{BADCBF90-C083-4579-87AC-95CD58D02FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BADCBF90-C083-4579-87AC-95CD58D02FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BADCBF90-C083-4579-87AC-95CD58D02FE7}.Release|x64.ActiveCfg = Release|Any CPU
+		{BADCBF90-C083-4579-87AC-95CD58D02FE7}.Release|x64.Build.0 = Release|Any CPU
+		{BADCBF90-C083-4579-87AC-95CD58D02FE7}.Release|x86.ActiveCfg = Release|Any CPU
+		{BADCBF90-C083-4579-87AC-95CD58D02FE7}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{699E6556-7E60-4700-800B-801459A7F39C} = {14CA195A-D0F4-4CAC-A835-40ADB445BF22}
+		{BADCBF90-C083-4579-87AC-95CD58D02FE7} = {A5937CA8-8628-4459-BA3A-4FA546656CBE}
+	EndGlobalSection
+EndGlobal

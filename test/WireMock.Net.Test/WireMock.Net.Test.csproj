@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+    <RootNamespace>WireMock.Net.Test</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0"/>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="5.0.6"/>
+    <PackageReference Include="xunit" Version="2.4.0"/>
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0"/>
+    <PackageReference Include="coverlet.collector" Version="1.2.0"/>
+    <PackageReference Include="WireMock.Net" Version="1.4.15"/>
+    <PackageReference Include="FluentAssertions" Version="5.10.3"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\WireMock.Net.Api\WireMock.Net.Api.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="appsettings.test.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Resources\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
